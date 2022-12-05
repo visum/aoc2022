@@ -47,17 +47,17 @@ func main() {
 	scoreMap["lose"] = 0
 
 	resultMap := map[string]map[string]string{
-		"rock": map[string]string{
+		"rock": {
 			"rock":     "draw",
 			"paper":    "lose",
 			"scissors": "win",
 		},
-		"paper": map[string]string{
+		"paper": {
 			"rock":     "win",
 			"paper":    "draw",
 			"scissors": "lose",
 		},
-		"scissors": map[string]string{
+		"scissors": {
 			"rock":     "lose",
 			"paper":    "win",
 			"scissors": "draw",
